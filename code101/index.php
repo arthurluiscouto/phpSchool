@@ -11,7 +11,7 @@
     echo ("Hoje é " . date("Y/m/d") . "</br>");
     ?>  
 
-    <h1>Part II - Learnin the Language</h1>
+    <h1>Part II - Learning the Language</h1>
     <ul>
         <li><a href="php/c1_PHPLanguageBasics.php">PHP Language Basics</a></li>
         <li><a href="php/c2_PHPDecisionsAndLoops.php">Decisions and Loops</a></li>
