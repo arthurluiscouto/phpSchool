@@ -8,7 +8,7 @@
 <body>
 	<h1>School - PHP</h1>
     <h2>c1 PHP Language Basics</h2>
-	
+	1
 
     <!--################################################################################################################
     A PHP script is executed on the server, and the plain HTML result is sent back to the browser. 
