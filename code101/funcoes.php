@@ -8,7 +8,7 @@
   $result = areaTriangle(3, 3);
   echo $result;
   echo "<br>";
-?> 
+  ?> 
 
 <?php
   $pi = 3.14;
