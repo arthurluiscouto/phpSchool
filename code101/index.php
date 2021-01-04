@@ -18,6 +18,7 @@
         <li><a href="php/c3_PHPFunctions.php">Functions</a></li>
         <li><a href="php/c4_PHPArrays.php">Arrays</a></li>
         <li><a href="php/c5_PHPSuperglobals.php">Super Globals</a></li>
+        <li><a href="php/funcoes.php">Funcoes</a></li>
     </ul>
 
 </body>

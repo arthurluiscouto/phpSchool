@@ -132,8 +132,42 @@
    echo "$ano não é bissexto";
    echo "<br>";
    
-  //Dia da semana
+  //Dia da semanar
+  $dia = 5;
 
+  switch ($dia) {
+    case 1 :{
+        echo "Domingo!";
+        break;
+    }
+    case 2 :{
+        echo "Segunda!";
+        break;
+    }
+    case 3 :{
+        echo "Terça!";
+        break;
+    }
+    case 4 :{
+        echo "Quarta!";
+        break;
+    }
+    case 5 :{
+        echo "Quinta!";
+        break;
+    }
+    case 6 :{
+        echo "Sexta!";
+        break;
+    }
+    case 7 :{
+        echo "Sábado!";
+        break;
+    }
+    default:
+        echo "Não existe dia da semana com esse número!";
+  }
+  
   echo "<br>";
   echo "<br>";
   echo "Functions";
