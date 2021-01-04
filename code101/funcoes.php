@@ -91,9 +91,9 @@
   } elseif ($Nadador >= 18) {
   echo "Cota";
   }
+  echo"<br>";
 
   //Calcular a média ponderada
-
   $nota1 = 4;
   $nota2 = 5;
   $nota3 = 7;
@@ -107,9 +107,35 @@
   } elseif ($mediaPonderada >=9.5) {
     echo "Dispensado";
   }
+  echo "<br>";
 
+  //Maior de três números
+  echo max(10, 13, 9);
+  echo "<br>";
 
+  //Números pares ou ímpar
+  $num = 12;
+  $resto = $num % 2; 
+  if ($resto == 0) {
+    echo "$num é par";
+  } else {
+    echo "$num é ímpar";
+  }
+  echo "<br>";
+
+  //Determinar ano bissexto 
+  $ano = 2021 ;
   
+  if ( ($ano%4==0 && $ano%100!=0) || $ano%400 == 0)
+   echo "$ano é bissexto";
+  else
+   echo "$ano não é bissexto";
+   echo "<br>";
+   
+  //Dia da semana
 
-
-    
+  echo "<br>";
+  echo "<br>";
+  echo "Functions";
+  echo "<br>";
+  echo "<br>";
