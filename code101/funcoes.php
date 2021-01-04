@@ -92,6 +92,23 @@
   echo "Cota";
   }
 
+  //Calcular a média ponderada
+
+  $nota1 = 4;
+  $nota2 = 5;
+  $nota3 = 7;
+  
+  $mediaPonderada = ($nota1*3 + $nota2*4 + $nota3*5)/3;
+
+  if($mediaPonderada <= 7.5) {
+    echo "Reprovado";
+  } elseif ($mediaPonderada <=9.5) {
+    echo "Admitido";
+  } elseif ($mediaPonderada >=9.5) {
+    echo "Dispensado";
+  }
+
+
   
 
 
